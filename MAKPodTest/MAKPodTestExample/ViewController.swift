@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MAKPodTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let math = MathCalculation.init()
+        
+        let number  = math.add(a:12 , b:20)
+        print("number is ")
+        
     }
 
 
