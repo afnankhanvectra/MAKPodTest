@@ -17,15 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "MAKPodTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of MAKPodTest."
+  spec.summary      = "This is first pod file for live. It wil just add some numbers"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "This is first pod file for live. I have startred work on Pod file now"
 
   spec.homepage     = "https://github.com/afnankhanvectra/MAKPodTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,8 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/MAKPodTest.git", :tag => "#{spec.version}" }
-
+spec.source        = { :git => "https://github.com/afnankhanvectra/MAKPodTest.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "MAKPodTest/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
