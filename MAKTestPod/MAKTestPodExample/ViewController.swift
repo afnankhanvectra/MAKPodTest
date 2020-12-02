@@ -17,8 +17,7 @@ class ViewController: UIViewController {
         let math = MathCalculation.init()
                 
                 let number  = math.add(a:12 , b:20)
-                print("number is \(number)")
-        
+ 
     }
 
 
